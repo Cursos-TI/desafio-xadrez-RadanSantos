@@ -7,8 +7,8 @@ void moverTorre(int casas, int atual, char *direção) {
     if (atual >= casas) {
         return; // Caso base: já percorreu todas as casas
     }
-    printf("%s\n", direcao); // Imprime a direção
-    moverTorre(casas, atual  + 1, direcao); // Chamada recursiva
+    printf("%s\n", direção); // Imprime a direção
+    moverTorre(casas, atual  + 1, direção); // Chamada recursiva
 }
 
 // ===============================
