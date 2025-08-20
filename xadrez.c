@@ -48,7 +48,7 @@ int main() {
 
         // Loop interno: poderia seu usado para algo estra,
         // aqui simulamos verificação de sub-etapas do movimento
-        int pass = 1;
+        int passo = 1;
         while (passo <= 1) { // apenas para mostrar o uso do while
             // Esse loop garante que o Cavalo está confirmando cada movimento
             passo++;
