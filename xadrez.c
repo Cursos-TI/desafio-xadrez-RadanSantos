@@ -34,5 +34,33 @@ int main() {
         j++;
     } while (j <= casasRainha);
 
+    // ================================
+    // Movimento do CAVALO → usa loops aninhados
+    // ================================
+    printf("\nMovimento do Cavalo:\n");
+
+    int movimentosBaixo = 2;  // Cavalo anda 2 casas para baixo
+    int movimentosEsquerda = 1; //depois 1 casa para a esquerda
+
+    // Loop esterno: controla os dois movimentos para baixo
+    for (int k = 1; k <= movimentosBaixo; k++) {
+        printf("Baixo (%d)\n", k);
+
+        // Loop interno: poderia seu usado para algo estra,
+        // aqui simulamos verificação de sub-etapas do movimento
+        int pass = 1;
+        while (passo <= 1) { // apenas para mostrar o uso do while
+            // Esse loop garante que o Cavalo está confirmando cada movimento
+            passo++;
+        }
+    }
+
+    // Depois que terminou os movimentos "Baixo", faz o "Esquerda"
+    int l = 1;
+    while (l <= movimentosEsquerda) {
+        printf("Esquerda (%d)\n", l);
+        l++;
+    }
+
     return 0;
 }
